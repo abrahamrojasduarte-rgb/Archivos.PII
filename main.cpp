@@ -10,6 +10,7 @@ int EjercicioDos();
 int main() {
     int o = EjercicioUno();
     cout<<o<<endl;
+
     return 0;
 }
 int  EjercicioUno() {
@@ -53,4 +54,8 @@ int EjercicioDos() {
         cout<<"Error de lectura \n";
     }
     f.close();
+    if (count > 0) {
+        cout<<"Promedio " <<suma/count<<"\n";
+    }
+
 }
